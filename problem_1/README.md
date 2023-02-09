@@ -7,6 +7,7 @@ Imagine you have a special keyboard with the following keys:
 - Key 3: (`Ctrl-C`): Copy selection to buffer
 - Key 4: (`Ctrl-V`): Print buffer on screen appending it after what has already been printed.
 You can only press the keyboard for `N` times, find out the maximum numbers of ‘A’ you can print on screen.
+
 **Example 1**:
 ```
 Input: N = 2

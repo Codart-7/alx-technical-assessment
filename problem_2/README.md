@@ -16,12 +16,15 @@ Write a function that returns the max power needed for the list of fields and wa
 - Positions are non-negative integer
 - The max value of a position is 10^9
 - Examples below if the candidate needs more cases
+
 **Example 1**:
 - Fields = [1, 2, 3]
 - Towers = [2] => Max distance: 1
+
 **Example 2**:
 - Fields = [1, 2, 3, 4]
 - Towers = [1, 4] => Max distance: 1
+
 **Example 3**:
 - Fields = [1, 5]
 - Towers = [10] => Max distance: 9

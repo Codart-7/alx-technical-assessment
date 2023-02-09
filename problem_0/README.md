@@ -17,3 +17,17 @@ With these two pieces of information, find `x`, the first number of teaspoons of
 - For any value of `n`, your cake will be always too sweet (`x` always exists)
 
 ## Solution Explanation
+What I was given:
+1) `n`: the number of teaspoons of sugar that the recipe states is required to make your cake
+2) `isTooSweet`: returns true if i teaspoons of sugar makes your cake too sweet
+
+### Base assumptions
+- Since `n` can be equal to 1 and `n` is always "too sweet", then `x` can be less than 1.
+- Since the caliberation of the teaspoon was not given, I assumed a value of 0.2.
+- `x` is rounded to one decimal place.
+- Based on the "Extra Clarifications" section, any value after `x` is "too sweet". This means that `x` is "not too sweet"
+
+### Method
+Recursive algorithm.
+
+NB: I implemented a test `isTooSweet()` function to test

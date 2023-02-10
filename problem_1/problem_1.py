@@ -14,7 +14,7 @@ def list_append(data: List, value, instruction: str):
 
 
 def max_output(n: int):
-    """hello"""
+    """Algorithm to find max output"""
     char_List = ["A", "Ctrl-A", "Ctrl-C", "Ctrl-V"]
     sequence_List = list()
     v_count = 0
@@ -43,8 +43,8 @@ def max_output(n: int):
             result_count -= (copy_count * 2)
             copy_count = result_count
             result_count += copy_count
-    
-    print(result_count, "-> for the sequence: {}".format(sequence_List))
-            
 
-max_output(14)
+    print(result_count, "-> for the sequence: {}".format(sequence_List))
+
+
+# max_output(50)

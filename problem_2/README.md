@@ -30,3 +30,6 @@ Write a function that returns the max power needed for the list of fields and wa
 - Towers = [10] => Max distance: 9
 
 ## Solution Explanation
+Since the list is sorted, find the difference between the positions of the last tower and the first field.
+This gives the total distance needed to cover.
+Dividing this by the total number of towers gives the average power each tower must possess.
